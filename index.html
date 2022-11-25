@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--link para o CSS Bootstrap-->
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/css/style.css">
     <title>Página de Login</title>
   </head>
-  <body>
+  <body class="bg-body">
     <!--container para área do formulário-->
     <div class="container mt-5">
         <!--ínicio do formuário-->
@@ -25,7 +26,7 @@
             </div>
             <!--fim do embrulhamento de grupo-->
             <!--embrulhando grupo-->
-            <div class="input-group">
+            <div class="input-group mb-5">
                 <span class="input-group-text">S</span>
                 <!--Usando modo flutuação-->
                 <div class="form-floating">
@@ -33,8 +34,12 @@
                     <label for="input-senha">Senha</label>
                 </div>
             <!--fim do embrulhamento de grupo-->
-                <input type="button" class="btn btn-success" value="Entrar">
             </div>
+        <!--botão para envio do formulário-->    
+         <div class="d-grid gap-2">
+            <input type="button" class="btn btn-success" value="Entrar">
+        </div>
+        <!--fim da div do botão-->
         </form>
         <!--fim do formuário-->
     </div>
