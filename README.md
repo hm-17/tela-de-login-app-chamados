@@ -6,17 +6,17 @@ Também irei reaproveitar esta mesma tela de login para ser utilizada na entrada
 - VS code
 - Bootstrap v5.2
 
-# Resultados
+## Resultados
 
 - resultado 1 :
 ![Screenshot](/assets/img/readme/result1.PNG)
 
-# Alterações
+## Alterações
 
 - alteração 1 :
 ![Screenshot](/assets/img/readme/altera1.PNG)
 
-# Detalhes
+## Detalhes
 - form-floating: a tag input tem está anterior a tag label para priorizar a leitura da classe "form-control" e ativar função de flutuação do bootstrap.
 
 ## Documentações
