@@ -9,17 +9,17 @@ Também irei reaproveitar esta mesma tela de login para ser utilizada na entrada
 # Resultados
 
 - resultado 1 :
-![Screenshot](/img/result1.png)
+![Screenshot](/assets/img/readme/result1.PNG)
 
-# Resultados
+# Alterações
 
 - alteração 1 :
-![Screenshot](/img/altera1.png)
+![Screenshot](/assets/img/readme/altera1.PNG)
 
 # Detalhes
 - form-floating: a tag input tem está anterior a tag label para priorizar a leitura da classe "form-control" e ativar função de flutuação do bootstrap.
 
-## Documentação
+## Documentações
 - https://getbootstrap.com/docs/5.2/getting-started/introduction/
 - https://getbootstrap.com/docs/5.2/layout/containers/
 - https://getbootstrap.com/docs/5.2/forms/floating-labels/
