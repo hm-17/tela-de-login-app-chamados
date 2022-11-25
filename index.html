@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--Metatag responsiva-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--metatag responsiva-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--link para o CSS Bootstrap-->
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />
     <title>Página de Login</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <!--container para área do formulário-->
+    <div class="container mt-5">
+        <!--ínicio do formuário-->
+        <form action="#" class="" method="post">
+            <!--embrulhando grupo-->
+            <div class="input-group mb-3">
+                <span class="input-group-text">U</span>
+                <!--Usando modo flutuação-->
+                <div class="form-floating">
+                    <input id="input-usuario" class="form-control" type="text" placeholder="Usuário">
+                    <label for="input-usuario">Usuário</label>
+                </div>
+            </div>
+            <!--fim do embrulhamento de grupo-->
+            <!--embrulhando grupo-->
+            <div class="input-group">
+                <span class="input-group-text">S</span>
+                <!--Usando modo flutuação-->
+                <div class="form-floating">
+                    <input id="input-senha" class="form-control" type="password" placeholder="Senha">
+                    <label for="input-senha">Senha</label>
+                </div>
+            <!--fim do embrulhamento de grupo-->
+                <input type="button" class="btn btn-success" value="Entrar">
+            </div>
+        </form>
+        <!--fim do formuário-->
+    </div>
+    <!--fim do container-->
+    <!--link para o JS Bootstrap-->
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+  </body>
 </html>
