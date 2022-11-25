@@ -22,4 +22,7 @@ Também irei reaproveitar esta mesma tela de login para ser utilizada na entrada
 - https://getbootstrap.com/docs/5.2/layout/containers/
 - https://getbootstrap.com/docs/5.2/forms/floating-labels/
 - https://getbootstrap.com/docs/5.2/components/buttons/
+- https://getbootstrap.com/docs/5.2/utilities/shadows/#examples
+- https://getbootstrap.com/docs/5.2/utilities/colors/
+- https://getbootstrap.com/docs/5.2/utilities/opacity/
 
