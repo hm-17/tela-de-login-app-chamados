@@ -1,14 +1,33 @@
+:root {
+    /*minhas cores*/
+    --minha-cor-bg-form: #003859;
+    --my-color-green: #209730;
+    --my-color-blue: #8ac0d8;
+    /*meus tipos de fontes*/
+    --my-font-form: 'Courier New';
+
+}
+
 body {
-    background-color: #8FB4EC;
-}
-.my-bg-collor-form {
-    background-color: #003859;
+    background-color: var(--my-color-blue);
 }
 
-.my-collor-button {
-    background-color: #1F7D5B;
+.form-custom {
+    font-family: var(--my-font-form);
+    background-color: var(--minha-cor-bg-form);
+    color: #fff;
 }
 
-.my-collor-button:hover {
-    background-color: #27bd86;
+.btn-custom {
+    font-family: var(--my-font-form);
+    box-shadow: 2px 2px #fff;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+    transition: box-shadow .3s ease, transform .3s ease; 
+}
+
+.btn-custom:active {
+    box-shadow: 0 0 0 0 var(--my-color-green), inset 2px 2px 2px rgba(0, 0, 0, 0.377);
+    transform: translate(2px, 2px);
+
+    
 }
