@@ -13,21 +13,21 @@ body {
 }
 
 .form-custom {
-    font-family: var(--my-font-form);
     background-color: var(--minha-cor-bg-form);
+    font-family: var(--my-font-form);
     color: #fff;
 }
+.input-custom {
 
+}
 .btn-custom {
     font-family: var(--my-font-form);
-    box-shadow: 2px 2px #fff;
+    box-shadow: 2px 2px var(--minha-cor-bg-form);
     text-shadow: 2px 2px 2px rgba(0,0,0,.5);
     transition: box-shadow .3s ease, transform .3s ease; 
 }
 
 .btn-custom:active {
-    box-shadow: 0 0 0 0 var(--my-color-green), inset 2px 2px 2px rgba(0, 0, 0, 0.377);
+    box-shadow: 0 0 0 0 var(--my-color-green), inset 2px 2px 2px var(--minha-cor-bg-form);
     transform: translate(2px, 2px);
-
-    
 }

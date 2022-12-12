@@ -18,26 +18,26 @@
         <div class="row text-center">
             <div class="col-auto mx-auto col-mod-10 col-lg-5">
                 <!--ínicio do formuário-->
-                <form action="#" class="p-5 form-custom rounded-2 shadow p-3 mb-5" method="post">
+                <form action="#" class="p-5 form-custom rounded-2 shadow mb-5" method="post">
                     <img src="/assets/img/login-form/png/form-icon.png" class="w-25" alt="">
-                    <p class="text-white mt-2 fs-5">Sistema de Gerenciamento de Chamados</p>
+                    <h1 class="mt-2 fw-semibold mb-3">Entrar</h1>
                     <!--embrulhando grupo-->
-                    <div class="input-group p-2">
+                    <div class="input-group mb-2">
                         <span class="input-group-text">
                             <img src="/assets/img/login-form/svg/person.svg" alt="senha" width="16" height="16">
                             <!--<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
                                 <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
                               </svg>-->
-                        </span>
+                            </span>
+                            <div class="form-floating">
+                                <input id="input-usuario" class="form-control" type="text" placeholder="Usuário" required/>
+                                <label for="input-usuario" class="fw-lighter text-muted opacity-75">Usuário</label>
+                            </div>
                         <!--Usando modo flutuação-->
-                        <div class="form-floating">
-                            <input id="input-usuario" class="border border-0 form-control" type="text" placeholder="Usuário" required/>
-                            <label for="input-usuario" class="fw-lighter text-muted opacity-75">Usuário</label>
-                        </div>
                     </div>
                     <!--fim do embrulhamento de grupo-->
                     <!--embrulhando grupo-->
-                    <div class="input-group mb-2 p-2">
+                    <div class="input-group mb-2">
                         <span class="input-group-text">
                             <img src="/assets/img/login-form/svg/key.svg" alt="senha" width="16" height="16">
                             <!--<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-key" viewBox="0 0 16 16">
@@ -47,18 +47,20 @@
                         </span>
                         <!--Usando modo flutuação-->
                         <div class="form-floating">
-                            <input id="input-senha" class="border border-0 form-control" type="password" placeholder="Senha" required/>
+                            <input id="input-senha" class="input-custom form-control" type="password" placeholder="Senha" required/>
                             <label for="input-senha" class="fw-lighter text-muted opacity-75">Senha</label>
                         </div>
+                    </div>
+                    <div class="text-left fs-7">
+                        <a href="#">Precisa de ajuda?</a>
                     </div>
                     <span class="text-danger font-monospace fw-semibold visually-hidden">Usuário ou senha incorreto.</span>
                     <!--fim do embrulhamento de grupo-->
                     <!--botão para envio do formulário-->
-                    <div class="d-grid gap-2 col-6 mx-auto mt-2 mb-4">
-                        <button type="submit" class="btn btn-success btn-custom">Entrar</button>
+                    <div class="mt-4 d-grid mx-auto">
+                        <button type="submit" class="btn btn-primary btn-custom border border-0 fw-semibold">Entrar</button>
                         <!--<input type="button" class="btn btn-custom" value="Entrar"/>-->
                     </div>
-                    <a href="#" class="">Precisa de ajuda?</a>
                     <!--fim da div do botão-->
                 </form>
                 <!--fim do formuário-->

@@ -1,5 +1,5 @@
 # tela-de-login-app-chamados
-A intenção para criação desta tela de login simples é familiarizar com o git, github e bootstrap na teoria e prática.
+A intenção de criação desta tela de login simples é familiarizar com o git, github e bootstrap na teoria e prática.
 Também irei reaproveitar esta mesma tela de login para ser utilizada na entrada/autenticação de um sistema de chamados (projeto futuro).
 
 ## Ferramentas utilizadas
